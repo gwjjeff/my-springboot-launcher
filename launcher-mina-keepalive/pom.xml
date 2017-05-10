@@ -18,12 +18,10 @@
         <dependency>
             <groupId>com.gwjjeff</groupId>
             <artifactId>launcher-template</artifactId>
-            <version>0.0.1</version>
         </dependency>
         <dependency>
             <groupId>org.apache.mina</groupId>
             <artifactId>mina-core</artifactId>
-            <version>${mina.version}</version>
         </dependency>
     </dependencies>
 

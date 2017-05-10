@@ -8,7 +8,7 @@
 	<version>0.0.1</version>
 	<packaging>pom</packaging>
 
-	<name>playground modules holder</name>
+	<name>playground</name>
 	<description>Module holder for demo projects of Spring Boot Playground</description>
 
     <modules>
@@ -20,6 +20,7 @@
         <module>launcher-env-demo</module>
         <module>launcher-redis</module>
 		<module>launcher-mina-keepalive</module>
+		<module>launcher-mina-udp</module>
 	</modules>
 
 </project>

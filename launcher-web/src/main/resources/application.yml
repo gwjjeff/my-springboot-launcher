@@ -1,0 +1,4 @@
+r:
+  launchers:
+    - udp_launcher
+    - web_launcher

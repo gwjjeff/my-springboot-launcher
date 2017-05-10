@@ -38,16 +38,6 @@
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-starter-web</artifactId>
-			</dependency>
-			<dependency>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-starter-tomcat</artifactId>
-				<scope>provided</scope>
-			</dependency>
-
-			<dependency>
 				<groupId>org.apache.mina</groupId>
 				<artifactId>mina-core</artifactId>
 				<version>${mina.version}</version>
@@ -67,12 +57,6 @@
 	            <artifactId>jackson-annotations</artifactId>
 	            <version>${jackson.version}</version>
 	        </dependency>
-
-			<dependency>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-starter-test</artifactId>
-				<scope>test</scope>
-			</dependency>
 
 			<dependency>
 				<groupId>org.mybatis.spring.boot</groupId>
@@ -125,11 +109,6 @@
 				<groupId>com.oracle</groupId>
 				<artifactId>ojdbc6</artifactId>
 				<version>11.2.0.3</version>
-			</dependency>
-
-			<dependency>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-starter-data-jpa</artifactId>
 			</dependency>
 
 		</dependencies>
