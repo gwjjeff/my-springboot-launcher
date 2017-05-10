@@ -23,6 +23,7 @@
 		<module>launcher-web</module>
         <module>launcher-mybatis</module>
         <module>launcher-general-lifecycle</module>
+        <module>launcher-redis-starter</module>
     </modules>
 
 </project>
