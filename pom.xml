@@ -17,6 +17,8 @@
 		<module>launcher-deps</module>
 		<module>launcher-template</module>
         <module>launcher-aop</module>
+        <module>launcher-env-demo</module>
+        <module>launcher-redis</module>
     </modules>
 
 </project>

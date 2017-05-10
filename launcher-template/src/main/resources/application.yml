@@ -1,3 +1,6 @@
 r:
   launchers:
     - template_launcher
+
+foo:
+  bar1: bar1
