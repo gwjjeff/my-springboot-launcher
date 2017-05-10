@@ -19,6 +19,7 @@
         <module>launcher-aop</module>
         <module>launcher-env-demo</module>
         <module>launcher-redis</module>
-    </modules>
+		<module>launcher-mina-keepalive</module>
+	</modules>
 
 </project>
