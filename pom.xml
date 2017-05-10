@@ -21,6 +21,7 @@
         <module>launcher-redis</module>
 		<module>launchers-mina</module>
 		<module>launcher-web</module>
-	</modules>
+        <module>launcher-mybatis</module>
+    </modules>
 
 </project>

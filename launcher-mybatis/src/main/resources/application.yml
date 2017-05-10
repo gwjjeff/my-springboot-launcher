@@ -1,0 +1,6 @@
+r:
+  launchers:
+    - mybatis_launcher
+spring:
+  profiles:
+    active: mybatis
