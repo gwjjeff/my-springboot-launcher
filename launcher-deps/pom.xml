@@ -18,6 +18,7 @@
         <!-- project scope -->
         <launcher-template.version>0.0.1</launcher-template.version>
         <launcher-base.version>0.0.1</launcher-base.version>
+        <launcher-general-lifecycle.version>0.0.1</launcher-general-lifecycle.version>
     </properties>
 
     <dependencyManagement>

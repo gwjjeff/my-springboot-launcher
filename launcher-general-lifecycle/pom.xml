@@ -6,27 +6,17 @@
         <artifactId>launcher-deps</artifactId>
         <groupId>com.gwjjeff</groupId>
         <version>0.0.1</version>
-        <relativePath>../launcher-deps/pom.xml</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>launcher-template</artifactId>
-    <version>${launcher-template.version}</version>
+    <artifactId>launcher-general-lifecycle</artifactId>
+    <version>${launcher-general-lifecycle.version}</version>
     <packaging>jar</packaging>
 
     <dependencies>
         <dependency>
-            <groupId>com.gwjjeff</groupId>
-            <artifactId>launcher-base</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-        </dependency>
-        <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-test</artifactId>
+            <artifactId>spring-boot-starter</artifactId>
         </dependency>
     </dependencies>
-
 </project>

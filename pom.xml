@@ -22,6 +22,7 @@
 		<module>launchers-mina</module>
 		<module>launcher-web</module>
         <module>launcher-mybatis</module>
+        <module>launcher-general-lifecycle</module>
     </modules>
 
 </project>

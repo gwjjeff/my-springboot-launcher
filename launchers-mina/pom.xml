@@ -29,6 +29,7 @@
         <module>launcher-mina-appserver</module>
         <module>launcher-mina-keepalive</module>
         <module>launcher-mina-udp</module>
+        <module>launcher-mina-udp-with-lifecycle</module>
     </modules>
 
 </project>
