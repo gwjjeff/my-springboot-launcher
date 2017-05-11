@@ -1,0 +1,7 @@
+---
+r:
+  launchers:
+    - jpaOracle_launcher
+spring:
+  profiles:
+    active: jpaOracle
