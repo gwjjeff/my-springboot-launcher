@@ -10,7 +10,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>launcher-general-lifecycle</artifactId>
-    <version>${launcher-general-lifecycle.version}</version>
+    <version>0.0.1</version>
     <packaging>jar</packaging>
 
     <dependencies>
