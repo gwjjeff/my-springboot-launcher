@@ -13,6 +13,10 @@
     <artifactId>launcher-mybatis</artifactId>
     <version>0.0.1</version>
 
+    <properties>
+        <maven.install.skip>true</maven.install.skip>
+    </properties>
+
     <dependencies>
         <dependency>
             <groupId>com.gwjjeff</groupId>

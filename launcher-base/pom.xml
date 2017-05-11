@@ -3,10 +3,10 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
+        <artifactId>playground-parent</artifactId>
         <groupId>com.gwjjeff</groupId>
-        <artifactId>launcher-deps</artifactId>
         <version>0.0.1</version>
-        <relativePath>../launcher-deps/pom.xml</relativePath>
+        <relativePath>../playground-parent/pom.xml</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 

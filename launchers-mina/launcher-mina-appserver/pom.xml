@@ -13,4 +13,8 @@
     <artifactId>launcher-mina-appserver</artifactId>
     <version>0.0.1</version>
 
+    <properties>
+        <maven.install.skip>true</maven.install.skip>
+    </properties>
+
 </project>

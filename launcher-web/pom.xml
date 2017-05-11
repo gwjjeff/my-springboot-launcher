@@ -15,10 +15,12 @@
 		<groupId>com.gwjjeff</groupId>
 		<artifactId>launcher-deps</artifactId>
 		<version>0.0.1</version>
+		<relativePath>../launcher-deps/pom.xml</relativePath>
 	</parent>
 
 	<properties>
 		<start-class>com.gwjjeff.LauncherWebApplication</start-class>
+        <maven.install.skip>true</maven.install.skip>
 	</properties>
 
 	<dependencies>
