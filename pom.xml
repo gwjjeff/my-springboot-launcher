@@ -25,6 +25,8 @@
         <module>launcher-general-lifecycle</module>
         <module>launcher-redis-starter</module>
 		<module>launchers-jpa</module>
+        <module>lib-demos</module>
+		<module>launcher-zookeeper</module>
 	</modules>
 
 </project>

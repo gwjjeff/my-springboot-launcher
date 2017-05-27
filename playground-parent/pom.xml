@@ -33,6 +33,7 @@
 		<aspectj.version>1.8.9</aspectj.version>
 		<lombok.version>1.16.16</lombok.version>
 		<guava.version>21.0</guava.version>
+		<zookeeper.version>3.4.9</zookeeper.version>
 	</properties>
 
 	<dependencyManagement>
@@ -114,6 +115,34 @@
 				<groupId>com.oracle</groupId>
 				<artifactId>ojdbc6</artifactId>
 				<version>11.2.0.3</version>
+			</dependency>
+
+			<dependency>
+				<groupId>org.apache.zookeeper</groupId>
+				<artifactId>zookeeper</artifactId>
+				<version>${zookeeper.version}</version>
+				<exclusions>
+					<exclusion>
+						<artifactId>netty</artifactId>
+						<groupId>io.netty</groupId>
+					</exclusion>
+					<exclusion>
+						<artifactId>slf4j-log4j12</artifactId>
+						<groupId>org.slf4j</groupId>
+					</exclusion>
+					<exclusion>
+						<artifactId>jline</artifactId>
+						<groupId>jline</groupId>
+					</exclusion>
+                    <exclusion>
+                        <artifactId>log4j</artifactId>
+                        <groupId>log4j</groupId>
+                    </exclusion>
+                    <exclusion>
+                        <groupId>org.slf4j</groupId>
+                        <artifactId>slf4j-api</artifactId>
+                    </exclusion>
+				</exclusions>
 			</dependency>
 
 		</dependencies>
